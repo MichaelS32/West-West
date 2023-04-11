@@ -19,7 +19,7 @@ function Footer() {
                         <a target="_blank" href='https://goo.gl/maps/b3Tmhkgno2U4hnTx8' className='footer-text foot-hov'>2929 Mossrock,<br/> San Antonio, TX 78230</a>
 
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item className='footer' xs={6}>
                         
                     </Grid>
                 </Grid>

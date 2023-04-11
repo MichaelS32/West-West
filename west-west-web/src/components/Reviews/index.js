@@ -23,28 +23,53 @@ function Reviews() {
         <h2 className='reviews-title'>Reviews</h2>
         <Slider {...settings}>
         <div className='review-container'>
-            <h3>John H. <br /> Regional Service Manager</h3>
+            <h3>Zach Villejo</h3>
 
             <p className="review-text">
-                "Not having a dedicated I.T. staff put a huge drain on our business and employees. 
-                By hiring Mercury and their team we were able to shed that burden to our business."
+                "Very knowledgeable and professional. They helped us with the sale of our house with no issues, when other attorneys couldn't. Definitely recommend them."
             </p>
         </div>
         <div className='review-container'>
-            <h3>Chrystal V. <br /> BSK Law Office</h3>
+            <h3>Franciso Corona</h3>
             
             <p className="review-text">
-                "Mercury Communications were able to work with our Internet Provider, upgrade our 
-                network equipment and wireless to bring us up to date and speed!! Best decision we 
-                could have made!"
+                "Very good service  and Knowledgeable Staff Title transfer done easy and inexpensive Thanks for taking your time to help and advise Us."
             </p>
         </div>
         <div className='review-container'>
-            <h3>Susan G. <br /> Owner, Glenny Law Firm</h3>
+            <h3>Yvonne Perez</h3>
             
             <p className="review-text">
-                "We needed a phone system that always stayed up and worked in a way that 
-                fit our particular need. Mercury did that for us."
+                "Our family and extended family have done busy with them for several years. Good staff, service, reasonable, and timely."
+            </p>
+        </div>
+        <div className='review-container'>
+            <h3>Theresa Pomerleau</h3>
+            
+            <p className="review-text">
+                "The staff at West & West are making a difficult time a little easier. They are honest, thorough, and reasonably priced. Basically, they do right by folks."
+            </p>
+        </div>
+        <div className='review-container'>
+            <h3>Lydia Sanchez</h3>
+            
+            <p className="review-text">
+                "Being doing business with Mr West for over 10 years. I would not go to anyone else for what he specializes. Great group to work with!!"
+            </p>
+        </div>
+        <div className='review-container'>
+            <h3>Albert Hernandez</h3>
+            
+            <p className="review-text">
+                "Had my back when I needed them definitely recommended them to close on a house."
+            </p>
+        </div>
+        <div className='review-container'>
+            <h3>Frances Parker</h3>
+            
+            <p className="review-text">
+                "Had a free consultation. Very professional.
+"
             </p>
         </div>
         

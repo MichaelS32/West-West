@@ -93,6 +93,7 @@ NavLink {
 
 .footer {
   padding-left: 2vw;
+  border-top: solid 5px var(--tertiary);
 }
 
 .footer-text {
@@ -242,7 +243,9 @@ img {
 .reviews-bg {
   background-color: var(--secondary);
   color: #432818 !important;
-  height: 45vh;
+  height: 35vh;
+  border-top: solid 3px var(--primary);
+  margin-top: 2vh;
 }
 
 .reviews-title {
@@ -262,37 +265,68 @@ img {
 
 .review-text {
   font-size: larger;
-  width: 60vw;
+  width: 50vw;
   margin: auto;
   padding-bottom: 2vh;
 }
 
 /*  */
 
+.hours-border {
+  background-color: var(--primary);
+  border: solid 3px var(--secondary);
+  border-radius: 10px;
+  box-sizing: content-box;
+  padding: 2px;
+  color: var(--light);
+  justify-self: center;
+  margin-right: 1vw;
+  min-width: 300px;
+
+}
+
+.hours-border h3 {
+  border-bottom: solid 3px var(--secondary);
+  width:fit-content;
+  margin: 1vh auto;
+  padding-top: 6vh
+}
+
 iframe {
   border: solid 3px var(--tertiary);
   border-radius: 10px;
   box-shadow: 10px black;
+  /* margin: 1vh auto 0 1vh !important; */
+  justify-self: center;
+  margin-left: 1vw;
+
 }
 
 .frame-container {
-  justify-content:baseline;
+  justify-content: center !important;
+  box-sizing: content-box;
 }
 
-/* .fixed-bg {
-  background-image: url(src\assets\san-antonio-skyline.png);
+.fixed-bg {
+  background-image: url(https://github.com/MichaelS32/West-West/blob/main/west-west-web/src/assets/san-antonio-skyline.png?raw=true);
   /* Set a specified height, or the minimum height for the background image */
-  /* min-height: 500px; */
+  min-height: 200px;
 
-  /* Set background image to fixed (don't scroll along with the page) */
-  /* background-attachment: fixed; */
+  /*  Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
 
   /* Center the background image */
-  /* background-position: center; */
+  background-position: center;
 
   /* Set the background image to no repeat */
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 
   /* Scale the background image to be as large as possible */
-  /* background-size: cover; */
-/* } */
+  background-size: cover;
+
+  margin: 3vh 0;
+
+  border-top: solid 3px var(--primary);
+
+  border-bottom: solid 3px var(--primary);
+}
