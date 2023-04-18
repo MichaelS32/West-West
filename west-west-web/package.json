@@ -2,6 +2,7 @@
   "name": "west-west-web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://michaels32.github.io/west-west",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.10.6",
