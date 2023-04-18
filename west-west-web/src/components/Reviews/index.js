@@ -54,7 +54,7 @@ function Reviews() {
             <h3>Lydia Sanchez</h3>
             
             <p className="review-text">
-                "Being doing business with Mr West for over 10 years. I would not go to anyone else for what he specializes. Great group to work with!!"
+                "Been doing business with Mr West for over 10 years. I would not go to anyone else for what he specializes. Great group to work with!!"
             </p>
         </div>
         <div className='review-container'>

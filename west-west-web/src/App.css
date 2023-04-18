@@ -1,4 +1,9 @@
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 :root {
+  font-family: optima, sans-serif;
   overflow-x: hidden;
   --primary: #8d0801;
   --secondary: rgba(255, 230, 167, 1);
@@ -92,14 +97,16 @@ NavLink {
 }
 
 .footer {
-  padding-left: 2vw;
+  
   border-top: solid 5px var(--tertiary);
+  justify-content: center;
 }
 
 .footer-text {
   text-align: left;
   text-decoration: none;
   padding-bottom: 1vh;
+  justify-content: space-evenly;
 
   color: #FFE6A7;
 }
@@ -108,7 +115,17 @@ NavLink {
   color: white;
 }
 
-img {
+.scales {
+  width: 12vw;
+  
+}
+
+.icon-w {
+  width: 8vw;
+  height: auto;
+}
+
+.hero-img {
   min-width: 200px;
 }
 
@@ -197,6 +214,7 @@ img {
   min-width: 250px;
   padding: 1vh 2vw;
   border: solid 3px #BB9457;
+  margin: auto;
   
 }
 
@@ -243,7 +261,8 @@ img {
 .reviews-bg {
   background-color: var(--secondary);
   color: #432818 !important;
-  height: 35vh;
+  height: fit-content;
+  padding-bottom: 6vh;
   border-top: solid 3px var(--primary);
   margin-top: 2vh;
 }
@@ -276,20 +295,23 @@ img {
   background-color: var(--primary);
   border: solid 3px var(--secondary);
   border-radius: 10px;
-  box-sizing: content-box;
+
   padding: 2px;
   color: var(--light);
-  justify-self: center;
-  margin-right: 1vw;
-  min-width: 300px;
+
+  font-size:3vh;
+  padding: 8vh 6vw;
+  width: 35vw;
+  height: 35vw;
+  min-height: 700px;
 
 }
 
 .hours-border h3 {
+  font-size: 4vh;
   border-bottom: solid 3px var(--secondary);
-  width:fit-content;
-  margin: 1vh auto;
-  padding-top: 6vh
+
+  margin: auto;
 }
 
 iframe {
@@ -297,18 +319,22 @@ iframe {
   border-radius: 10px;
   box-shadow: 10px black;
   /* margin: 1vh auto 0 1vh !important; */
-  justify-self: center;
-  margin-left: 1vw;
 
+  width: 35vw;
+  height: 35vw;
+  min-width: 275px;
+  
+  
 }
 
 .frame-container {
-  justify-content: center !important;
-  box-sizing: content-box;
+  justify-content:space-evenly;
+  
+  margin: auto;
 }
 
 .fixed-bg {
-  background-image: url(https://github.com/MichaelS32/West-West/blob/main/west-west-web/src/assets/san-antonio-skyline.png?raw=true);
+  background-image: url(https://github.com/MichaelS32/West-West/blob/main/west-west-web/src/assets/san-antonio-skyline2.jpg?raw=true);
   /* Set a specified height, or the minimum height for the background image */
   min-height: 200px;
 
