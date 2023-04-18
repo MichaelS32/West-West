@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4bb67605.css",
+    "main.js": "/static/js/main.8ada41d1.js",
+    "static/js/787.9fbb2592.chunk.js": "/static/js/787.9fbb2592.chunk.js",
+    "static/media/west-west-logo.png": "/static/media/west-west-logo.2b71e913caa956c3c65c.png",
+    "static/media/blue-law.jpg": "/static/media/blue-law.d4b30a4c6104f3879021.jpg",
+    "static/media/scales.png": "/static/media/scales.0f6847c9af9f194908bf.png",
+    "static/media/small-logo.png": "/static/media/small-logo.29e69203f77b265d5088.png",
+    "index.html": "/index.html",
+    "main.4bb67605.css.map": "/static/css/main.4bb67605.css.map",
+    "main.8ada41d1.js.map": "/static/js/main.8ada41d1.js.map",
+    "787.9fbb2592.chunk.js.map": "/static/js/787.9fbb2592.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bb67605.css",
+    "static/js/main.8ada41d1.js"
+  ]
+}
